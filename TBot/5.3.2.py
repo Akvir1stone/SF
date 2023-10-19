@@ -1,7 +1,7 @@
 import telebot
 
 
-bot = telebot.TeleBot('6394818946:AAHPLIUuOZ9YRhEDkxHm_XUDcYxBgwx6mhY')
+bot = telebot.TeleBot('token')
 
 
 @bot.message_handler(content_types=['photo'])
